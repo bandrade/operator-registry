@@ -77,7 +77,7 @@ An example of a `dependencies.yaml` that specifies Prometheus operator and etcd 
 dependencies:
   - type: olm.package
     packgeName: prometheus
-    version: >0.27.0
+    version: ">0.27.0"
   - type: olm.gvk
     group: etcd.database.coreos.com
     kind: EtcdCluster
